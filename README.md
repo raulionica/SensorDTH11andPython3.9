@@ -26,7 +26,7 @@ The 7 Steps for this Projects:
   -field 1 = Humidity
   -field 2 = Temperature
 
-5.Run the Arduino <CODE> on Arduino IDE (A version modify for StandardFirmata library)
+5.Run the Arduino CODE on Arduino IDE (A version modify for StandardFirmata library)
 
 6.Complet config.py
 
