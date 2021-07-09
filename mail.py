@@ -1,14 +1,12 @@
 import win32com.client as win32
 import config
 
-# now you can play with your code. Let’s define the SMTP server separately here:
 def send_alert(humidity_value, temperature_value):
     import win32com.client as win32
     outlook = win32.Dispatch('outlook.application')
     mail = outlook.CreateItem(0)
-    mail.To = config #
+    mail.To = config['mail_to']
 
-    # type your message: use two newlines (\n) to separate the subject from the message body, and use 'f' to  automatically insert variables in the text
     if temperature_value >= temperatureMax and humidity_value >= humidityMax:
         mail.Subject = '!!!#SENSOR-ALERT[Temperature and Humidity]!!!'
         mail.Body = 'Values too high for Temperature and Humidity!'
