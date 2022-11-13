@@ -1,33 +1,33 @@
-The 7 Steps for this Projects:
+The 6 Steps for this Projects:
 
-1.Software Request:
-- Python3.9
-- PyCharm
-- Arduino IDE
+## 1.Software Request:
+    - Python3.9
+    - PyCharm
+    - Arduino IDE
 
-- pip install pyfirmata
-- pip install requests
-- pip install pywin32
-
-
-2.HardWare Request
-
-- Arduino Uno
-- 2x RGB LED
-- Buzzer sensor
-- DHT11 sensor
+    - pip install pyfirmata
+    - pip install requests
+    - pip install pywin32
 
 
-4.Aplication request:
+## 2.HardWare Request
 
-- OutLook windows app
-- account on https://thingspeak.com and config a new public channel 
+    - Arduino Uno
+    - 2x RGB LED
+    - Buzzer sensor
+    - DHT11 sensor
+
+
+## 3.Aplication request:
+
+    - OutLook windows app
+    - account on https://thingspeak.com and config a new public channel 
   
-  -field 1 = Humidity
-  -field 2 = Temperature
+    -field 1 = Humidity
+    -field 2 = Temperature
 
-5.Run the Arduino CODE on Arduino IDE (A version modify for StandardFirmata library)
+## 4.Run the Arduino CODE on Arduino IDE (A version modify for StandardFirmata library)
 
-6.Complet config.py
+## 5.Complet config.py
 
-7.Run main.py on PyCharm
+## 6.Run main.py on PyCharm
